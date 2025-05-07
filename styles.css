@@ -147,16 +147,12 @@ hr {
   align-items: center;
   justify-content: space-between;
 }
-.works li {
-  border-radius: 16px;
-  background-color: rgba(57, 62, 70, 0.5);
-  backdrop-filter: blur(4px);
-  padding: 1rem 4rem;
-}
+
 .works li img {
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+  border-radius: 20px;
   transition: transform 0.2s;
 }
 .works li :hover {
